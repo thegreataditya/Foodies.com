@@ -1,0 +1,67 @@
+/* Navigation Section */
+#navbar{
+    flex-direction: column;
+}
+
+/* Services Section */
+.services{
+   flex-direction: column; 
+}
+
+.services .box{
+    padding: 10px;
+}
+
+.services .box img{
+    margin: 2px auto;
+}
+
+.services .h-secondary{
+    margin: 0;
+}
+
+/* Clients Section */
+#clients{
+    margin-left: 5px;
+    flex-wrap: wrap;
+}
+
+.client-item{
+    padding: 10px;
+}
+
+/* Contact-us Section */
+
+/* Media-queries */
+@media screen and (max-width:322px) {
+   #navbar ul{
+    flex-direction: column;
+   }
+
+   #navbar ul a{
+     text-align: center;
+   }
+
+   .clients{
+    overflow: hidden;
+   }
+
+}
+
+@media screen and (max-width:1000px) {
+   #contact-us form{
+        width: 60%;
+   }
+
+}
+
+@media screen and (max-width:620px) {
+    .services{
+        margin: auto 10px;
+    }
+    #contact-us form{
+        width: 70%;
+    }
+}
+
+/* Utility Classes */
